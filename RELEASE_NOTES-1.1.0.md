@@ -83,3 +83,17 @@ AI 使用同样的牌库、卡牌、指挥点和战斗规则，不偷看你的�
 四张斯大林格勒地图、连/营级规模、216 米一格、三牌库卡驱指挥、ZOC、渗透移动、炮兵火力任务、工事、包围断补给、完善 AI、单人/热座/局域网对战、存档、规则与教程、中文/English 界面。
 
 > 本作是免费体验版，规则、卡牌数量、平衡和内容仍可能调整；不含源码。
+
+## Screenshots
+
+![Battlefield](https://raw.githubusercontent.com/zhaooahz11111/order-of-the-general/main/screenshots/01-hero.png)
+
+![AI vs human](https://raw.githubusercontent.com/zhaooahz11111/order-of-the-general/main/screenshots/02-ai.png)
+
+![Command hand](https://raw.githubusercontent.com/zhaooahz11111/order-of-the-general/main/screenshots/03-cards.png)
+
+![Artillery fire mission](https://raw.githubusercontent.com/zhaooahz11111/order-of-the-general/main/screenshots/04-artillery.png)
+
+![City centre](https://raw.githubusercontent.com/zhaooahz11111/order-of-the-general/main/screenshots/05-city.png)
+
+![Lower city](https://raw.githubusercontent.com/zhaooahz11111/order-of-the-general/main/screenshots/06-lower.png)

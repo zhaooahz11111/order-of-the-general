@@ -107,6 +107,8 @@ Get the latest playtest build from **[GitHub Releases](https://github.com/zhaooa
 
 Windows 10/11 x64. Unsigned build; if SmartScreen appears, choose **More info → Run anyway**. Check `SHA256SUMS.txt`.
 
+English-only edition: **[Release v1.1.0-en](https://github.com/zhaooahz11111/order-of-the-general/releases/tag/v1.1.0-en)**.
+
 > This is a free playtest build. Rules, card counts, balance and content may still change. Source code is not included.
 
 ---
@@ -219,5 +221,7 @@ AI 和你玩同一套游戏：
 - `Order.of.the.General.1.1.0.exe` — 免安装便携版
 
 Windows 10/11 x64。未签名程序可能触发 SmartScreen，点“更多信息 → 仍要运行”。校验值见 `SHA256SUMS.txt`。
+
+纯英文版：**[Release v1.1.0-en](https://github.com/zhaooahz11111/order-of-the-general/releases/tag/v1.1.0-en)**。
 
 > 本作是免费体验版，规则、卡牌数量、平衡和内容仍可能调整；不含源码。
