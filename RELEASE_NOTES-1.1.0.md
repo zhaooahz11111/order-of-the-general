@@ -10,8 +10,8 @@
 
 ### 下载
 
-- `Order of the General Setup 1.1.0.exe` — Windows 安装程序
-- `Order of the General 1.1.0.exe` — 免安装便携版
+- `Order.of.the.General.Setup.1.1.0.exe` — Windows 安装程序
+- `Order.of.the.General.1.1.0.exe` — 免安装便携版
 
 ### 本版内容
 
@@ -38,8 +38,8 @@ First formal release.
 
 ### Download
 
-- `Order of the General Setup 1.1.0.exe` — Windows installer
-- `Order of the General 1.1.0.exe` — portable build
+- `Order.of.the.General.Setup.1.1.0.exe` — Windows installer
+- `Order.of.the.General.1.1.0.exe` — portable build
 
 ### What is in this build
 
