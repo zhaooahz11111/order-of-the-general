@@ -28,7 +28,7 @@ gh release create v1.1.0 `
   "D:\workspace\order-of-the-general\game\release\desktop\Order of the General Setup 1.1.0.exe" `
   "D:\workspace\order-of-the-general\game\release\desktop\Order of the General 1.1.0.exe" `
   --repo YOUR_ACCOUNT/order-of-the-general `
-  --title "Order of the General 1.1.0 — first formal release" `
+  --title "Order of the General 1.1.0 — free playtest build" `
   --notes-file RELEASE_NOTES-1.1.0.md
 ```
 

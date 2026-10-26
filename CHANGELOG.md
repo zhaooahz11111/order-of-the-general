@@ -2,7 +2,7 @@
 
 ## 1.1.0 — 2026-10-26
 
-First formal release.
+Free playtest build.
 
 ### Deck system
 - Split each side into three decks: movement, attack and special.

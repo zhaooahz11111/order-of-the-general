@@ -1,105 +1,223 @@
 # Order of the General — Stalingrad 1942
+## Free Playtest Build
 
-**将官序列：斯大林格勒 1942**  
-A company/battalion hex-and-counter wargame of the Stalingrad battle.  
-一款连/营级六角格兵棋，背景为 1942 年斯大林格勒。
+![Stalingrad battlefield](screenshots/01-hero.png)
 
-**Version 1.1.0 · Windows · Freeware · Source not included**
+A **card-driven hex-and-counter wargame** set in Stalingrad, 1942.
 
-[Download the latest release](https://github.com/zhaooahz11111/order-of-the-general/releases/latest)
+Companies and battalions, 216 metres per hex, about one hour per round. You command through a hand of orders and a limited pool of command points — not through a perfect plan.
 
-![Battlefield](screenshots/01-battlefield.png)
+Free playtest for Windows · Chinese / English UI · Source not included.
 
-## 中文
+## A card-driven wargame, computed by the machine
 
-### 这是什么
+This is a wargame first: hexes, zones of control, line of fire, stacking, supply, morale, fieldworks and combined arms.
 
-- 四张斯大林格勒战场：马马耶夫岗、巴尔卡与工厂区、市中心与渡口、下城
-- 216 米一格，连/营级单位，一回合代表约一小时战斗
-- 三套牌库：移动牌库、攻击牌库、特殊牌库
-- 每阶段 4 张普通牌 + 3 张特殊牌；特殊牌跨阶段保留
-- 六角格 ZOC、渗透移动、炮兵火力任务、工事、包围断补给
-- 单机人机对战 + 双人同屏
-- 中文 / English 界面
+It is card-driven second: your orders are a hand of cards, not a menu. You may know what you want to do, but this hour of the battle only lets you do so much.
 
-### 下载
+The computer does the work that would stop a tabletop game:
 
-到 **[Releases](https://github.com/zhaooahz11111/order-of-the-general/releases)** 下载：
+- line of fire, range and terrain
+- stacking and overstacking
+- supply traces and encirclement
+- casualties, vehicles, equipment and morale
+- artillery sheaves, suppression and fieldworks
+- the opponent's legal actions and plans
 
-- `Order.of.the.General.Setup.1.1.0.exe` — Windows 安装程序
-- `Order.of.the.General.1.1.0.exe` — 免安装便携版
+The result is faster, smoother and more consistent than resolving the same detail by hand — and it lets the game keep the depth of a tabletop wargame without stopping to look up tables.
 
-Windows 10/11 x64。未签名程序首次运行可能触发 SmartScreen：点“更多信息”→“仍要运行”；校验值见 `SHA256SUMS.txt`。
+![AI vs human](screenshots/02-ai.png)
 
-### 1.1.0 要点
+## A complete AI, not a scripted opponent
 
-- 炮击结算后不再保留炮击小标志
-- 空投：2 CP，补给补满，士气 +20
-- 防空火力、为了帝国、为了祖国母亲：1 CP
-- 三牌库结构与特殊牌跨阶段保留
-- 新增/调整：渗透移动、ZOC 链式移动限制、包围断补给、炮兵工事毁伤
+The AI plays the same game you do:
 
-### 操作
+- same decks, same cards, same command points and same combat rules
+- it does not read your hand or your hidden orders
+- it builds legal actions and evaluates objectives, terrain, stacking, supply, ZOC, fieldworks and threat
+- it prepares artillery, suppresses positions, uses observed fire, combines arms before an assault, and focuses fire on guns and broken remnants
 
-- 左键己方单位：攻击范围
-- 右键己方单位：移动范围
-- 点卡牌，再点目标；`结束本方` 交接阶段
-- 完整规则：游戏内“规则”按钮；教程：游戏内“教程”按钮
+Four difficulty levels change planning depth and command budget:
 
-### 说明
+- **Easy** — simpler scoring and fewer CP
+- **Normal** — full rules scoring
+- **Hard** — wider candidates and one-ply lookahead
+- **Extreme** — widest candidates and lookahead; artillery, suppression and combined-arms preparation before the assault
 
-本作是免费发布的可执行文件，**不包含源代码**。允许原样转发安装包/便携版用于非商业目的；不得反编译、修改后冒充官方版本或商业售卖。第三方历史照片的作者与许可见 `CREDITS.md`。
+It defends, counter-attacks and punishes overextension without cheating.
 
----
+## Card-driven command
 
-## English
+Each side has three decks: movement, attack and special.
 
-### What it is
+- Every phase deals **4 normal cards + 3 special cards**
+- Normal cards are re-dealt when the phase changes
+- Unplayed specials carry into the attack phase
+- The special deck guarantees at least one reinforcement card
+- Shuffles are random every new game; a hand with no playable normal card is redrawn
 
-- Four Stalingrad boards: Mamayev Kurgan, the balka/factory district, the city centre and ferries, the lower town
-- 216 m per hex; company/battalion counters; one round is about one hour of combat
-- Three decks: movement, attack and special
-- Each phase: 4 normal cards + 3 specials; unplayed specials carry into the attack phase
-- Hex ZOC, infiltration movement, artillery fire missions, fieldworks, encirclement supply cut
-- Single-player vs AI + two-player hotseat
-- Chinese / English UI
+![Command hand and supply](screenshots/03-cards.png)
 
-### Download
+### Ground has memory: ZOC
 
-Get the latest build from **[Releases](https://github.com/zhaooahz11111/order-of-the-general/releases)**:
+- Entering or leaving an enemy ZOC ends the move
+- A unit cannot step straight from one enemy ZOC hex into another
+- Infantry and engineers can use **Infiltration Move**: spend all remaining action points, move at 0.8× MP, ignore enemy ZOC
+
+![Artillery fire mission](screenshots/04-artillery.png)
+
+### Artillery is preparation
+
+- A fire mission covers a chosen centre and its six neighbours
+- The full legal range is shown; clicking outside it cancels the card
+- Shellfire suppresses, damages and can collapse fieldworks
+- Each covered hex has a chance to lose one fieldworks level
+- Firing costs supply
+
+## Four ways to play
+
+![City centre and crossings](screenshots/05-city.png)
+
+- **Solo** — one player controls both sides
+- **Vs AI** — choose Axis or Soviet and one of four difficulties; the AI hand stays hidden
+- **Hot-seat** — two players share one machine; a hand-over screen hides orders
+- **LAN PVP** — create or join a local-network room; server-authoritative, each player sees only their own hand
+
+LAN PVP is local-network play, not internet matchmaking. No account or online service is required.
+
+![Lower city and the pocket](screenshots/06-lower.png)
+
+## What is in the playtest
+
+- Four Stalingrad boards
+- Company/battalion scale, 216 m hexes, about one hour per round
+- Card-driven command with three decks
+- ZOC, infiltration, artillery fire missions, fieldworks and encirclement
+- Complete AI with four difficulty levels
+- Solo, hot-seat and LAN PVP
+- Save/load, in-game rules and tutorial
+- Chinese and English UI
+
+## Download
+
+Get the latest playtest build from **[GitHub Releases](https://github.com/zhaooahz11111/order-of-the-general/releases)**:
 
 - `Order.of.the.General.Setup.1.1.0.exe` — Windows installer
 - `Order.of.the.General.1.1.0.exe` — portable build
 
-Windows 10/11 x64. The build is unsigned; if SmartScreen appears, choose **More info → Run anyway**. Check `SHA256SUMS.txt`.
+Windows 10/11 x64. Unsigned build; if SmartScreen appears, choose **More info → Run anyway**. Check `SHA256SUMS.txt`.
 
-### 1.1.0 highlights
+> This is a free playtest build. Rules, card counts, balance and content may still change. Source code is not included.
 
-- Shellfire impact badges are cleared after resolution
-- Airdrop: 2 CP, full supply, +20 morale
-- Flak umbrella, For the Empire and For the Motherland: 1 CP
-- Three-deck structure with special-card carry-over
-- Infiltration move, ZOC-chaining restriction, encirclement supply cut, artillery fieldworks damage
+---
 
-### Controls
+# 将官序列：斯大林格勒 1942
+## 免费体验版
 
-- Left-click a friendly unit: attack range
-- Right-click a friendly unit: movement range
-- Pick a card, then a target; **End side** hands over the phase
-- Full rules: in-game **Rules**; tutorial: in-game **Tutorial**
+![斯大林格勒战场](screenshots/01-hero.png)
 
-### Note
+一款以斯大林格勒 1942 为背景的**卡驱六角格兵棋**免费体验版。
 
-This is a freeware binary release. **Source code is not included.** You may redistribute the unmodified installer/portable package for non-commercial purposes. Do not reverse-engineer, modify and pass off as official, or sell it. Third-party historical photographs are credited in `CREDITS.md`.
+连/营级单位，216 米一格，一回合约一小时战斗。你通过一手命令牌和有限的指挥点来指挥，而不是靠一张完美计划表。
 
-## System requirements
+Windows · 中文 / English 界面 · 免费体验 · 不含源码。
 
-- Windows 10/11 x64
-- 4 GB RAM
-- 500 MB free disk space
-- No network required for single-player
+## 卡驱兵棋，交给计算机结算
 
-## Credits / licence
+首先它是兵棋：六角格、ZOC、视线、堆叠、补给、士气、工事、合同作战。
 
-See [CREDITS.md](CREDITS.md) and [LICENSE.txt](LICENSE.txt).  
-Historical photographs remain the property of their respective archives/authors and are used under the licences listed there.
+其次它是卡驱：你的命令是一手牌，不是菜单。你知道自己想做什么，但这一小时只允许你做这么多。
+
+计算机负责桌面上最耗时的部分：
+
+- 视线、射程与地形
+- 堆叠与超堆叠
+- 补给线与被包围
+- 伤亡、载具、装备与士气
+- 炮兵弹着、压制与工事
+- 对手的合法行动与计划
+
+因此它比手工查表结算更快、更顺、更一致，也能保留桌游兵棋的细节深度，而不用每次停下来翻表。
+
+![人机对战](screenshots/02-ai.png)
+
+## 完善而强大的 AI
+
+AI 和你玩同一套游戏：
+
+- 同样的牌库、卡牌、指挥点和战斗规则
+- 不偷看你的手牌和隐藏命令
+- 自己生成合法行动，评估目标、地形、堆叠、补给、ZOC、工事和威胁
+- 会炮火准备、压制阵地、观察射击、在突击前组织合同作战，并集中火力打炮兵和残部
+
+四档难度同时改变规划深度和指挥点预算：
+
+- **简单**：评分更简单、CP 更少
+- **普通**：完整规则评分
+- **困难**：更宽候选 + 一层预判
+- **极难**：最宽候选与预判；突击前先炮击、压制、组织合同作战
+
+它会防守、反击、惩罚冒进，而且不作弊。
+
+## 卡驱指挥
+
+每方三套牌库：移动、攻击、特殊。
+
+- 每阶段 **4 张普通牌 + 3 张特殊牌**
+- 阶段切换时重发普通牌
+- 未打出的特殊牌保留到攻击阶段
+- 特殊牌库保证至少一张增援卡
+- 每局随机洗牌；四张普通牌都不可用时重抽
+
+![手牌与补给](screenshots/03-cards.png)
+
+### 地面有记忆：ZOC
+
+- 进入或离开敌方 ZOC 会结束移动
+- 不能从一个敌方 ZOC 格直接走进另一个
+- 步兵/工兵可用**渗透移动**：花光剩余行动值，以 0.8 倍移动力移动，无视敌方 ZOC
+
+![炮兵火力任务](screenshots/04-artillery.png)
+
+### 炮兵是准备，不是按钮
+
+- 火力任务覆盖选定中心格及周围六格
+- 显示完整合法范围；点范围外取消用牌
+- 炮击压制、杀伤，并可能摧毁工事
+- 每个被覆盖格有概率削掉一级工事
+- 开火消耗补给
+
+## 四种游玩方式
+
+![市中心与渡口](screenshots/05-city.png)
+
+- **单人推演**：一人操作双方
+- **人机对战**：选德军或苏军与四档 AI 难度；AI 手牌不可见
+- **本机热座**：两人共用一台机器，交接时遮罩隐藏命令
+- **局域网对战**：创建/加入本地网络房间；服务器权威，各自只看到自己的手牌
+
+局域网对战是本地联机，不是互联网匹配；不需要账号或在线服务。
+
+![下城与口袋](screenshots/06-lower.png)
+
+## 体验版内容
+
+- 四张斯大林格勒地图
+- 连/营级规模，216 米一格，一回合约一小时
+- 三牌库卡驱指挥
+- ZOC、渗透移动、炮兵火力任务、工事、包围断补给
+- 完善 AI，四档难度
+- 单人、热座、局域网对战
+- 存档、游戏内规则与教程
+- 中文 / English 界面
+
+## 下载
+
+到 **[GitHub Releases](https://github.com/zhaooahz11111/order-of-the-general/releases)** 下载：
+
+- `Order.of.the.General.Setup.1.1.0.exe` — Windows 安装程序
+- `Order.of.the.General.1.1.0.exe` — 免安装便携版
+
+Windows 10/11 x64。未签名程序可能触发 SmartScreen，点“更多信息 → 仍要运行”。校验值见 `SHA256SUMS.txt`。
+
+> 本作是免费体验版，规则、卡牌数量、平衡和内容仍可能调整；不含源码。

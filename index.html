@@ -1,63 +1,100 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Order of the General — Stalingrad 1942</title>
+<title>Order of the General — Stalingrad 1942 · Free Playtest</title>
 <style>
 :root{--ink:#1b1b18;--paper:#f2efe6;--green:#1f3a2e;--red:#7a1f1f;--muted:#6b675d}
 *{box-sizing:border-box} body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 "Segoe UI",system-ui,sans-serif}
-header{background:var(--green);color:#f7f2e4;padding:56px 24px 42px;border-bottom:6px solid var(--red)}
-.wrap{max-width:1050px;margin:0 auto} h1{margin:0 0 6px;font:700 46px/1.05 Georgia,serif;letter-spacing:.5px}
-.sub{font:700 22px/1.4 "Microsoft YaHei",sans-serif;color:#e8d9b8} .tag{margin-top:14px;color:#cfc6ae;font-size:14px;letter-spacing:.08em;text-transform:uppercase}
-main{padding:34px 24px 60px} h2{color:var(--green);font:700 24px/1.3 "Microsoft YaHei",sans-serif;margin:34px 0 10px;border-bottom:2px solid #d8d1bf;padding-bottom:6px}
-p{max-width:78ch} .downloads{display:flex;gap:14px;flex-wrap:wrap;margin:22px 0}
-.btn{display:inline-block;background:var(--green);color:#fff;text-decoration:none;padding:13px 22px;border:2px solid var(--green);font-weight:700}
-.btn.alt{background:transparent;color:var(--green)} .btn:hover{background:var(--red);border-color:var(--red);color:#fff}
-.shots{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0} .shots img{width:100%;display:block;border:1px solid #bdb6a4;background:#111}
-.kv{display:grid;grid-template-columns:180px 1fr;gap:6px 18px;max-width:820px} .kv b{color:var(--green)}
-.note{border-left:4px solid var(--red);padding:10px 14px;background:#e9e3d5;max-width:820px;font-size:14px}
+header{background:var(--green);color:#f7f2e4;padding:54px 24px 38px;border-bottom:6px solid var(--red)}
+.wrap{max-width:1080px;margin:0 auto}
+.kicker{color:#cfc6ae;font-size:13px;letter-spacing:.14em;text-transform:uppercase}
+h1{margin:8px 0 4px;font:700 48px/1.03 Georgia,serif;letter-spacing:.4px}
+h1 span{display:block;font:700 22px/1.4 "Microsoft YaHei",sans-serif;color:#e8d9b8;margin-top:10px}
+.lead{margin:18px 0 0;max-width:72ch;color:#eee7d3;font-size:17px}
+.downloads{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.btn{display:inline-block;background:#f2efe6;color:var(--green);text-decoration:none;padding:12px 20px;border:2px solid #f2efe6;font-weight:700}
+.btn.alt{background:transparent;color:#f2efe6;border-color:#cfc6ae}
+.btn:hover{background:var(--red);border-color:var(--red);color:#fff}
+main{padding:36px 24px 56px} h2{color:var(--green);font:700 26px/1.3 "Microsoft YaHei",sans-serif;margin:38px 0 10px;border-bottom:2px solid #d8d1bf;padding-bottom:6px}
+h3{color:var(--red);font:700 18px/1.3 "Microsoft YaHei",sans-serif;margin:24px 0 6px}
+p{max-width:82ch} ul{max-width:82ch} li{margin:4px 0}
+.shots{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}
+.shots img{width:100%;display:block;border:1px solid #bdb6a4;background:#111}
+.note{border-left:4px solid var(--red);padding:10px 14px;background:#e9e3d5;max-width:860px;font-size:14px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:8px 24px;max-width:900px}
+.grid b{color:var(--green)}
 footer{border-top:1px solid #cfc7b5;margin-top:44px;padding-top:16px;color:var(--muted);font-size:13px}
-@media(max-width:700px){.shots{grid-template-columns:1fr} h1{font-size:34px} .kv{grid-template-columns:1fr}}
+a{color:var(--red)}
+@media(max-width:720px){.shots,.grid{grid-template-columns:1fr} h1{font-size:34px} header{padding-top:36px}}
 </style>
 </head>
 <body>
 <header><div class="wrap">
-  <div class="tag">STALINGRAD 1942 · HEX WARGAME</div>
-  <h1>Order of the General</h1>
-  <div class="sub">将官序列：斯大林格勒 1942</div>
-  <div class="tag" style="margin-top:20px">Version 1.1.0 · Windows · Freeware · Source not included</div>
+  <div class="kicker">STALINGRAD 1942 · CARD-DRIVEN HEX WARGAME</div>
+  <h1>Order of the General<span>将官序列：斯大林格勒 1942 · 免费体验版</span></h1>
+  <p class="lead">A card-driven hex-and-counter wargame of Stalingrad. Companies and battalions, 216 metres per hex, about one hour per round — with the computer doing the tables so the game can keep the depth.</p>
   <div class="downloads">
-    <a class="btn" href="https://github.com/zhaooahz11111/order-of-the-general/releases/latest">下载 / Download</a>
-    <a class="btn alt" href="https://github.com/zhaooahz11111/order-of-the-general/releases">全部版本 / All releases</a>
+    <a class="btn" href="https://github.com/zhaooahz11111/order-of-the-general/releases/latest">Download free playtest</a>
+    <a class="btn alt" href="https://github.com/zhaooahz11111/order-of-the-general/releases">All releases</a>
   </div>
 </div></header>
 <main class="wrap">
-  <h2>斯大林格勒，一小时一回合</h2>
-  <p>连/营级六角格兵棋。216 米一格；四张战场；三套牌库；ZOC、渗透、炮兵火力任务、工事与包围。单机人机对战或双人同屏，中文 / English。</p>
   <div class="shots">
-    <img src="screenshots/01-battlefield.png" alt="Stalingrad battlefield">
-    <img src="screenshots/02-artillery.png" alt="Artillery fire mission">
-    <img src="screenshots/03-attack.png" alt="Attack preview">
-    <img src="screenshots/04-cards.png" alt="Card hand">
+    <img src="screenshots/01-hero.png" alt="Stalingrad battlefield">
+    <img src="screenshots/02-ai.png" alt="AI vs human">
+    <img src="screenshots/03-cards.png" alt="Command hand">
+    <img src="screenshots/04-artillery.png" alt="Artillery fire mission">
   </div>
-  <h2>下载</h2>
-  <div class="downloads">
-    <a class="btn" href="https://github.com/zhaooahz11111/order-of-the-general/releases/latest">GitHub Releases</a>
+
+  <h2>A card-driven wargame, computed by the machine</h2>
+  <p>This is a wargame first: hexes, ZOC, line of fire, stacking, supply, morale, fieldworks and combined arms. It is card-driven second: your orders are a hand of cards, not a menu. You may know what you want to do, but this hour of the battle only lets you do so much.</p>
+  <p>The computer resolves the work that would stop a tabletop game — line of fire, range, terrain, stacking, supply traces, casualties, vehicles, morale, artillery sheaves and fieldworks — faster, smoother and more consistently, without giving up the detail.</p>
+
+  <h2>A complete AI, not a scripted opponent</h2>
+  <p>The AI plays the same game: same decks, same cards, same command points, same combat rules. It does not read your hand. It builds legal actions and evaluates objectives, terrain, stacking, supply, ZOC, fieldworks and threat; it prepares artillery, suppresses positions, uses observed fire, combines arms before an assault, and focuses fire on guns and broken remnants.</p>
+  <div class="grid">
+    <b>Easy</b><span>simpler scoring, fewer CP</span>
+    <b>Normal</b><span>full rules scoring</span>
+    <b>Hard</b><span>wider candidates + one-ply lookahead</span>
+    <b>Extreme</b><span>widest candidates and lookahead; artillery and combined-arms preparation</span>
   </div>
-  <div class="note">未签名程序可能触发 Windows SmartScreen：点“更多信息”→“仍要运行”。校验值见 SHA256SUMS.txt。安装包不包含源代码。</div>
-  <h2>1.1.0 要点</h2>
-  <div class="kv">
-    <b>三牌库</b><span>移动 / 攻击 / 特殊；每阶段 4 普通 + 3 特殊；特殊牌跨阶段保留。</span>
-    <b>战场</b><span>马马耶夫岗、巴尔卡与工厂区、市中心与渡口、下城。</span>
-    <b>战斗</b><span>216 米一格；ZOC、渗透移动、炮兵火力任务、工事、包围断补给。</span>
-    <b>模式</b><span>单机人机对战 / 双人同屏。</span>
+
+  <h2>Four ways to play</h2>
+  <div class="grid">
+    <b>Solo</b><span>one player controls both sides</span>
+    <b>Vs AI</b><span>choose side and one of four difficulties; the AI hand stays hidden</span>
+    <b>Hot-seat</b><span>two players, one machine, hand-over mask</span>
+    <b>LAN PVP</b><span>create or join a local-network room; server-authoritative, own hand only</span>
   </div>
-  <h2>English</h2>
-  <p>Company/battalion hex wargame of Stalingrad. 216 m per hex, four boards, three decks, artillery fire missions, ZOC and encirclement. Single-player vs AI or two-player hotseat. Chinese / English UI.</p>
-  <h2>Credits / licence</h2>
-  <p>Historical photographs are credited in <a href="CREDITS.md">CREDITS.md</a>. This is a freeware binary release; source code is not included. See <a href="LICENSE.txt">LICENSE.txt</a>.</p>
-  <footer>© 2026 the project author. Stalingrad 1942 · Version 1.1.0</footer>
+  <div class="note">LAN PVP is local-network play, not internet matchmaking. No account or online service required.</div>
+
+  <h2>What is in the playtest</h2>
+  <ul>
+    <li>Four Stalingrad boards: Mamayev Kurgan, the balka/factory belt, city centre and crossings, lower city and pocket</li>
+    <li>216 m hexes, company/battalion counters, about one hour per round</li>
+    <li>Three decks: movement, attack and special; 4 normal + 3 special cards per phase; specials carry into the attack phase</li>
+    <li>ZOC, infiltration move, artillery fire missions, fieldworks, encirclement supply cut</li>
+    <li>Complete AI with four difficulty levels; solo, hot-seat and LAN PVP</li>
+    <li>Save/load, in-game rules and tutorial; Chinese and English UI</li>
+  </ul>
+  <div class="shots">
+    <img src="screenshots/05-city.png" alt="City centre board">
+    <img src="screenshots/06-lower.png" alt="Lower city board">
+  </div>
+
+  <h2>中文</h2>
+  <p>一款以斯大林格勒 1942 为背景的<strong>卡驱六角格兵棋</strong>免费体验版。连/营级单位，216 米一格，一回合约一小时。你通过一手命令牌和有限指挥点来指挥，而不是靠一张完美计划表。</p>
+  <p>这是兵棋：六角格、ZOC、视线、堆叠、补给、士气、工事、合同作战。也是卡驱：命令是一手牌，不是菜单。计算机负责视线、射程、地形、堆叠、补给、伤亡、载具、士气、炮兵弹着与工事结算，比手工查表更快、更顺、更一致，同时保留桌游兵棋的细节深度。</p>
+  <p><strong>AI</strong> 使用同样的牌库、卡牌、指挥点和战斗规则，不偷看手牌；会评估目标、地形、堆叠、补给、ZOC、工事和威胁，会炮火准备、压制、观察射击、组织合同作战。四档难度同时改变规划深度与 CP。</p>
+  <p><strong>四种方式</strong>：单人推演、人机对战、本机热座、局域网对战。局域网为本地网络房间，非互联网匹配，不需要账号。</p>
+  <p><a href="https://github.com/zhaooahz11111/order-of-the-general/releases/latest">前往 GitHub Releases 下载免费体验版</a></p>
+
+  <h2>Download</h2>
+  <div class="note">Windows 10/11 x64. Unsigned build; if SmartScreen appears, choose “More info → Run anyway”. Check SHA256SUMS.txt. This is a free playtest; rules and balance may change. Source code is not included.</div>
+
+  <footer>© 2026 the project author · Order of the General · Stalingrad 1942 · Free playtest 1.1.0</footer>
 </main>
 </body>
 </html>
