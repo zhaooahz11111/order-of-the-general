@@ -1,0 +1,12 @@
+Order of the General 1.1.0
+Copyright © 2026 the project author. All rights reserved.
+
+This package is freeware. You may download and redistribute the unmodified
+installer or portable package for non-commercial purposes. You may not
+reverse-engineer, decompile, modify and redistribute the binaries as an
+official or modified release, or sell them, without permission.
+
+The source code is not included and is not licensed for redistribution.
+
+Third-party historical photographs remain the property of their respective
+authors and archives and are used under the licences listed in CREDITS.md.

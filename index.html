@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Order of the General — Stalingrad 1942</title>
+<style>
+:root{--ink:#1b1b18;--paper:#f2efe6;--green:#1f3a2e;--red:#7a1f1f;--muted:#6b675d}
+*{box-sizing:border-box} body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 "Segoe UI",system-ui,sans-serif}
+header{background:var(--green);color:#f7f2e4;padding:56px 24px 42px;border-bottom:6px solid var(--red)}
+.wrap{max-width:1050px;margin:0 auto} h1{margin:0 0 6px;font:700 46px/1.05 Georgia,serif;letter-spacing:.5px}
+.sub{font:700 22px/1.4 "Microsoft YaHei",sans-serif;color:#e8d9b8} .tag{margin-top:14px;color:#cfc6ae;font-size:14px;letter-spacing:.08em;text-transform:uppercase}
+main{padding:34px 24px 60px} h2{color:var(--green);font:700 24px/1.3 "Microsoft YaHei",sans-serif;margin:34px 0 10px;border-bottom:2px solid #d8d1bf;padding-bottom:6px}
+p{max-width:78ch} .downloads{display:flex;gap:14px;flex-wrap:wrap;margin:22px 0}
+.btn{display:inline-block;background:var(--green);color:#fff;text-decoration:none;padding:13px 22px;border:2px solid var(--green);font-weight:700}
+.btn.alt{background:transparent;color:var(--green)} .btn:hover{background:var(--red);border-color:var(--red);color:#fff}
+.shots{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0} .shots img{width:100%;display:block;border:1px solid #bdb6a4;background:#111}
+.kv{display:grid;grid-template-columns:180px 1fr;gap:6px 18px;max-width:820px} .kv b{color:var(--green)}
+.note{border-left:4px solid var(--red);padding:10px 14px;background:#e9e3d5;max-width:820px;font-size:14px}
+footer{border-top:1px solid #cfc7b5;margin-top:44px;padding-top:16px;color:var(--muted);font-size:13px}
+@media(max-width:700px){.shots{grid-template-columns:1fr} h1{font-size:34px} .kv{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="tag">STALINGRAD 1942 · HEX WARGAME</div>
+  <h1>Order of the General</h1>
+  <div class="sub">将官序列：斯大林格勒 1942</div>
+  <div class="tag" style="margin-top:20px">Version 1.1.0 · Windows · Freeware · Source not included</div>
+  <div class="downloads">
+    <a class="btn" href="https://github.com/zhaooahz11111/order-of-the-general/releases/latest">下载 / Download</a>
+    <a class="btn alt" href="https://github.com/zhaooahz11111/order-of-the-general/releases">全部版本 / All releases</a>
+  </div>
+</div></header>
+<main class="wrap">
+  <h2>斯大林格勒，一小时一回合</h2>
+  <p>连/营级六角格兵棋。216 米一格；四张战场；三套牌库；ZOC、渗透、炮兵火力任务、工事与包围。单机人机对战或双人同屏，中文 / English。</p>
+  <div class="shots">
+    <img src="screenshots/01-battlefield.png" alt="Stalingrad battlefield">
+    <img src="screenshots/02-artillery.png" alt="Artillery fire mission">
+    <img src="screenshots/03-attack.png" alt="Attack preview">
+    <img src="screenshots/04-cards.png" alt="Card hand">
+  </div>
+  <h2>下载</h2>
+  <div class="downloads">
+    <a class="btn" href="https://github.com/zhaooahz11111/order-of-the-general/releases/latest">GitHub Releases</a>
+  </div>
+  <div class="note">未签名程序可能触发 Windows SmartScreen：点“更多信息”→“仍要运行”。校验值见 SHA256SUMS.txt。安装包不包含源代码。</div>
+  <h2>1.1.0 要点</h2>
+  <div class="kv">
+    <b>三牌库</b><span>移动 / 攻击 / 特殊；每阶段 4 普通 + 3 特殊；特殊牌跨阶段保留。</span>
+    <b>战场</b><span>马马耶夫岗、巴尔卡与工厂区、市中心与渡口、下城。</span>
+    <b>战斗</b><span>216 米一格；ZOC、渗透移动、炮兵火力任务、工事、包围断补给。</span>
+    <b>模式</b><span>单机人机对战 / 双人同屏。</span>
+  </div>
+  <h2>English</h2>
+  <p>Company/battalion hex wargame of Stalingrad. 216 m per hex, four boards, three decks, artillery fire missions, ZOC and encirclement. Single-player vs AI or two-player hotseat. Chinese / English UI.</p>
+  <h2>Credits / licence</h2>
+  <p>Historical photographs are credited in <a href="CREDITS.md">CREDITS.md</a>. This is a freeware binary release; source code is not included. See <a href="LICENSE.txt">LICENSE.txt</a>.</p>
+  <footer>© 2026 the project author. Stalingrad 1942 · Version 1.1.0</footer>
+</main>
+</body>
+</html>
