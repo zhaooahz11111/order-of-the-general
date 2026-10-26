@@ -26,8 +26,8 @@ A company/battalion hex-and-counter wargame of the Stalingrad battle.
 
 到 **[Releases](https://github.com/zhaooahz11111/order-of-the-general/releases)** 下载：
 
-- `Order of the General Setup 1.1.0.exe` — Windows 安装程序
-- `Order of the General 1.1.0.exe` — 免安装便携版
+- `Order.of.the.General.Setup.1.1.0.exe` — Windows 安装程序
+- `Order.of.the.General.1.1.0.exe` — 免安装便携版
 
 Windows 10/11 x64。未签名程序首次运行可能触发 SmartScreen：点“更多信息”→“仍要运行”；校验值见 `SHA256SUMS.txt`。
 
@@ -68,8 +68,8 @@ Windows 10/11 x64。未签名程序首次运行可能触发 SmartScreen：点“
 
 Get the latest build from **[Releases](https://github.com/zhaooahz11111/order-of-the-general/releases)**:
 
-- `Order of the General Setup 1.1.0.exe` — Windows installer
-- `Order of the General 1.1.0.exe` — portable build
+- `Order.of.the.General.Setup.1.1.0.exe` — Windows installer
+- `Order.of.the.General.1.1.0.exe` — portable build
 
 Windows 10/11 x64. The build is unsigned; if SmartScreen appears, choose **More info → Run anyway**. Check `SHA256SUMS.txt`.
 
