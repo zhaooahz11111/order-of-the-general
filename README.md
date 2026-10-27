@@ -1,11 +1,15 @@
 # Order of the General — Stalingrad 1942
+
+**WW2 card-driven hex wargame · Free playtest 1.1.0**  
+[Download for Windows](https://github.com/zhaooahz11111/order-of-the-general/releases/latest) · [English Edition](https://github.com/zhaooahz11111/order-of-the-general/releases/tag/v1.1.0-en) · [All releases](https://github.com/zhaooahz11111/order-of-the-general/releases)
+
 ## Free Playtest Build
 
 ![Stalingrad battlefield](screenshots/01-hero.png)
 
-A **card-driven hex-and-counter wargame** set in Stalingrad, 1942.
+A **WW2 card-driven hex-and-counter wargame** set in Stalingrad, 1942.
 
-Companies and battalions, 216 metres per hex, about one hour per round. You command through a hand of orders and a limited pool of command points — not through a perfect plan.
+Companies and battalions, 216 metres per hex, about one hour per round; a tactical board-game feel with the computer handling the tables. You command through a hand of orders and a limited pool of command points — not through a perfect plan.
 
 Free playtest for Windows · Chinese / English UI · Source not included.
 
