@@ -1,7 +1,7 @@
-# Order of the General — Stalingrad 1942
+# Orden der Generäle — Stalingrad 1942
 
-**WW2 card-driven hex wargame · Free playtest 1.1.0**  
-[Download for Windows](https://github.com/zhaooahz11111/order-of-the-general/releases/latest) · [English Edition](https://github.com/zhaooahz11111/order-of-the-general/releases/tag/v1.1.0-en) · [All releases](https://github.com/zhaooahz11111/order-of-the-general/releases)
+**WW2 card-driven hex wargame · Free playtest 1.1.2**  
+[Download for Windows](https://github.com/zhaooahz11111/order-of-the-general/releases/latest) · [English Edition](https://github.com/zhaooahz11111/order-of-the-general/releases/tag/v1.1.2-en) · [All releases](https://github.com/zhaooahz11111/order-of-the-general/releases)
 
 ## Free Playtest Build
 
@@ -106,12 +106,11 @@ LAN PVP is local-network play, not internet matchmaking. No account or online se
 
 Get the latest playtest build from **[GitHub Releases](https://github.com/zhaooahz11111/order-of-the-general/releases)**:
 
-- `Order.of.the.General.Setup.1.1.0.exe` — Windows installer
-- `Order.of.the.General.1.1.0.exe` — portable build
+- `Orden.der.Generale.Setup.1.1.2.exe` — Windows installer
 
 Windows 10/11 x64. Unsigned build; if SmartScreen appears, choose **More info → Run anyway**. Check `SHA256SUMS.txt`.
 
-English-only edition: **[Release v1.1.0-en](https://github.com/zhaooahz11111/order-of-the-general/releases/tag/v1.1.0-en)**.
+English-only edition: **[Release v1.1.2-en](https://github.com/zhaooahz11111/order-of-the-general/releases/tag/v1.1.2-en)**.
 
 > This is a free playtest build. Rules, card counts, balance and content may still change. Source code is not included.
 
@@ -221,11 +220,10 @@ AI 和你玩同一套游戏：
 
 到 **[GitHub Releases](https://github.com/zhaooahz11111/order-of-the-general/releases)** 下载：
 
-- `Order.of.the.General.Setup.1.1.0.exe` — Windows 安装程序
-- `Order.of.the.General.1.1.0.exe` — 免安装便携版
+- `Orden.der.Generale.Setup.1.1.2.exe` — Windows 安装程序
 
 Windows 10/11 x64。未签名程序可能触发 SmartScreen，点“更多信息 → 仍要运行”。校验值见 `SHA256SUMS.txt`。
 
-纯英文版：**[Release v1.1.0-en](https://github.com/zhaooahz11111/order-of-the-general/releases/tag/v1.1.0-en)**。
+纯英文版：**[Release v1.1.2-en](https://github.com/zhaooahz11111/order-of-the-general/releases/tag/v1.1.2-en)**。
 
 > 本作是免费体验版，规则、卡牌数量、平衡和内容仍可能调整；不含源码。
