@@ -1,4 +1,4 @@
-# GitHub release checklist
+﻿# GitHub release checklist
 
 ## 0. Before you start
 - [ ] `gh auth login` (GitHub.com → HTTPS → browser)
@@ -9,7 +9,7 @@
 cd D:\workspace\order-of-the-general\release-publish\github
 git init
 git add .
-git commit -m "Order of the General 1.1.0 release page"
+git commit -m "Orden der Generäle 1.1.2 release page"
 gh repo create order-of-the-general --public --source=. --remote=origin --push
 ```
 If the repo name is taken, use another name and update the links in `README.md` and `index.html`.
@@ -24,12 +24,12 @@ Replace every `YOUR_GITHUB` in `README.md` and `index.html` with the GitHub acco
 
 ## 3. Create the GitHub Release
 ```powershell
-gh release create v1.1.0 `
-  "D:\workspace\order-of-the-general\game\release\desktop\Order of the General Setup 1.1.0.exe" `
-  "D:\workspace\order-of-the-general\game\release\desktop\Order of the General 1.1.0.exe" `
+gh release create v1.1.2 `
+  "D:\workspace\order-of-the-general\game\release\desktop\Orden der Generäle Setup 1.1.2.exe" `
+  "D:\workspace\order-of-the-general\game\release\desktop\Orden der Generäle 1.1.2.exe" `
   --repo YOUR_ACCOUNT/order-of-the-general `
-  --title "Order of the General 1.1.0 — free playtest build" `
-  --notes-file RELEASE_NOTES-1.1.0.md
+  --title "Orden der Generäle 1.1.2 — free playtest build" `
+  --notes-file RELEASE_NOTES-1.1.2.md
 ```
 
 ## 4. Turn on GitHub Pages
