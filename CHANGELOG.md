@@ -1,6 +1,6 @@
-# Changelog
+﻿# Changelog
 
-## 1.1.0 — 2026-10-26
+## 1.1.2 — 2026-10-26
 
 Free playtest build.
 
