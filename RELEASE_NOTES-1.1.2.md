@@ -1,4 +1,4 @@
-﻿# Orden der Generäle 1.1.2 — Free Playtest
+# Orden der Generäle 1.1.2 — Free Playtest
 
 A free playtest of a card-driven hex-and-counter wargame set in Stalingrad, 1942.
 
@@ -19,6 +19,7 @@ Windows 10/11 x64. Unsigned build; if SmartScreen appears, choose **More info �
 - StuG assault guns can use a limited indirect fire mission when stationary, against a known/observed hex, at 60% of normal artillery effect.
 - Damage-event previews for corps/army artillery, barrages, Katyusha, incendiaries and air support.
 - Refit (补充行动值) limited to once per unit per phase.
+- 赴死而战 / 誓与斯大林格勒共存亡: the casualty record bar drops 10 percentage points per use, at most twice per battle and once per round; the card is discarded after every use.
 - Assault-gun/status UI fixes and the single-slash routing overlay removed.
 
 > This is a free playtest build. Rules, card counts, balance and content may still change. Source code is not included.
