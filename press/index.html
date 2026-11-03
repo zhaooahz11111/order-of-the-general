@@ -59,8 +59,9 @@
   h3{margin:0 0 6px;font:700 18px/1.3 Georgia,serif;color:var(--rust)}
   .intro{max-width:76ch;color:#3d473a;font-size:16px}
   .two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(20px,4vw,50px);align-items:start}
-  .shots{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:22px}
+  .shots{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:22px;grid-auto-flow:dense}
   .shots figure{margin:0;min-width:0}
+  .shots figure.wide{grid-column:span 2}
   .shots img{width:100%;aspect-ratio:16/10;object-fit:cover;border:1px solid #7b8372;background:#0d1611}
   .shots figcaption{min-height:3.2em;margin-top:6px;color:var(--muted);font:9px/1.45 "Cascadia Mono",monospace;letter-spacing:.03em}
   .boards{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:22px;border:1px solid var(--line);background:var(--paper-2)}
@@ -94,7 +95,7 @@
   footer{padding:24px 0 34px;color:var(--muted);font-size:11px}
   footer .wrap{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
   @media(max-width:900px){.hero,.two,.ask{grid-template-columns:1fr}.hero-art{max-width:760px}.shots{grid-template-columns:1fr 1fr}.stats{grid-template-columns:1fr 1fr}.stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid var(--line)}}
-  @media(max-width:560px){.shots{grid-template-columns:1fr}.boards{grid-template-columns:1fr}.board{border-right:0!important}.board{border-bottom:1px solid var(--line)!important}.board:last-child{border-bottom:0!important}.stats{grid-template-columns:1fr 1fr}.nav nav{display:none}}
+  @media(max-width:560px){.shots{grid-template-columns:1fr}.shots figure.wide{grid-column:auto}.boards{grid-template-columns:1fr}.board{border-right:0!important}.board{border-bottom:1px solid var(--line)!important}.board:last-child{border-bottom:0!important}.stats{grid-template-columns:1fr 1fr}.nav nav{display:none}}
 </style>
 </head>
 <body>
@@ -141,14 +142,12 @@
     <h2>Two campaigns. One ruleset.</h2>
     <p class="intro">Company and battalion scale, 216 metres per hex. The player commands through a hand of movement, attack and special cards; the computer resolves line of fire, ZOC, stacking, supply, morale, fieldworks, artillery sheaves and the opponent's legal actions. The AI uses the same decks, cards and combat rules as the player.</p>
     <div class="shots">
+      <figure class="wide"><img src="assets/04-balka-overview.png" alt="The Balka and factory belt board: Barrikady works, crossings and objectives"><figcaption>The Balka and factory belt. Barrikady works, the crossing and four objectives; Phase II at 14 CP.</figcaption></figure>
+      <figure><img src="assets/hq.jpg" alt="Headquarters command radius"><figcaption>HQ command radius: supply and morale coverage.</figcaption></figure>
+      <figure class="wide"><img src="assets/attack-preview.png" alt="Attack preview showing losses, suppression and morale"><figcaption>Hover a target: casualties, suppression and morale before committing.</figcaption></figure>
+      <figure><img src="assets/attack-range.jpg" alt="Attack range for a selected assault gun"><figcaption>Left-click a counter: attack range and valid targets.</figcaption></figure>
       <figure><img src="assets/01-marinovka-overview.jpg" alt="Marinovka and the Chir board with a Soviet tank brigade selected"><figcaption>Marinovka / Chir. Counter inspector, hand, objectives and victory conditions.</figcaption></figure>
       <figure><img src="assets/02-raspopinskaya-overview.jpg" alt="Raspopinskaya pocket with an Axis hand"><figcaption>Raspopinskaya pocket. Card-driven command, not a menu.</figcaption></figure>
-      <figure><img src="assets/attack-range.jpg" alt="Attack range for a selected assault gun"><figcaption>Left-click a counter: attack range and valid targets.</figcaption></figure>
-      <figure><img src="assets/move-range.jpg" alt="Movement range for a selected assault gun"><figcaption>Right-click: movement range; grey is not selectable.</figcaption></figure>
-      <figure><img src="assets/attack-preview.png" alt="Attack preview showing losses, suppression and morale"><figcaption>Hover a target: casualties, suppression and morale before committing.</figcaption></figure>
-      <figure><img src="assets/hq.jpg" alt="Headquarters command radius"><figcaption>HQ command radius: supply and morale coverage.</figcaption></figure>
-      <figure><img src="assets/handover-axis.png" alt="Axis attack phase hand-over"><figcaption>Attack-phase hand-over: Axis.</figcaption></figure>
-      <figure><img src="assets/handover-soviet.png" alt="Soviet attack phase hand-over"><figcaption>Attack-phase hand-over: Soviet.</figcaption></figure>
     </div>
 
     <div class="two" style="margin-top:34px">
